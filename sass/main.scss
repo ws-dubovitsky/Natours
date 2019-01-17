@@ -7,10 +7,13 @@
 @import "base/typography";
 @import "base/utilities";
 
+
 @import "components/buttons";
 @import "components/cards";
 @import "components/composition.scss";
 @import "components/feature-box";
+@import "components/story";
+@import "components/_bg-video.scss";
 
 @import "layout/grid";
 @import "layout/header";
