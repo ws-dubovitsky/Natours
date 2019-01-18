@@ -1,8 +1,14 @@
 {
-  "name": "natours",
+  "name": "live-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.28.4"
+  },
   "scripts": {
     "complite:sass": "node-sass sass/main.scss css/style.css -w"
   },
@@ -15,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/ws-dubovitsky/Natours/issues"
   },
-  "homepage": "https://github.com/ws-dubovitsky/Natours#readme",
-  "devDependencies": {
-    "node-sass": "^4.11.0"
-  }
+  "homepage": "https://github.com/ws-dubovitsky/Natours#readme"
 }
